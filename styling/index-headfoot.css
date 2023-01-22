@@ -1,0 +1,112 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Roboto", serif;
+}
+
+
+header svg {
+    width: 90px;
+    height: 100px;
+}
+header {
+    padding-left: 1vw;
+    padding-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo:hover {
+    transform: scale(1.5);
+    fill:  rgba(161,193,129, 0.70);
+}
+
+header ul, .header-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+li a {
+    text-decoration: none;
+    transition: all 1.5s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+
+}
+
+a:visited {
+    color: black;
+}
+.header-button {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 35px;
+    font-family: "Poppins";
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.header-button:hover {
+    background-color: #A1C181;
+    color: white;
+}
+
+footer {
+    background-color: rgba(200, 199, 199, 0.5);
+    text-align: center;
+   
+}
+
+
+.return {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.return a {
+    text-decoration: none;
+    color: black;
+}
+
+.return button {
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 35px;
+    font-family: "Poppins";
+    background-color: white;
+    padding: 0px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.return button:hover {
+    background-color: #A1C181;
+
+}
+
+.return a:hover {
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
