@@ -35,6 +35,7 @@ header ul, .header-links {
 li a {
     text-decoration: none;
     transition: all 1.5s ease;
+    color: black;
 }
 
 a:hover {
